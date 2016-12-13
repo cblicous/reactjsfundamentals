@@ -24,3 +24,6 @@ say.apply(person,languages)
 
 var fnNew = say.bind(person,languages[0],languages[1],languages[2])
 fnNew();
+
+
+this always binds to the next function left from it 
